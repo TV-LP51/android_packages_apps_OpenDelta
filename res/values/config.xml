@@ -10,7 +10,7 @@
     <string name="property_device">ro.product.device</string>
 
     <!-- %s is expanded to property_version value. .zip, .delta, .update, .sign extensions added when needed -->
-     <string name="filename_base">validus-%s</string>
+     <string name="filename_base">Validus-%s</string>
 
     <!-- Path deltas are stored, relative to sdcard root -->
     <string name="path_base">OpenDelta</string>
@@ -22,7 +22,7 @@
      <string name="url_base_update">http://www.gothdroid.com/validus/delta/publish/%s/</string>
 
     <!-- URL base to find the full zip files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_full">http://www.gothdroid.com/validus/delta/publish/%s/</string>
+    <string name="url_base_full">http://www.gothdroid.com/validus/delta/builds/last/%s/</string>
 
     <!-- Applies whole-file signature delta. Adds one extra delta step. Required if recovery verifies signatures -->
     <item type="bool" name="apply_signature">false</item>
